@@ -22,4 +22,15 @@ either on Heroku,netlify or github pages or firebase.
     * footer 
        * contact us 
 
+#### My Learnings:-
+
+    *  **inline Tag** these tag does not cause a line break 
+        * Examples:- anchor tag,img tag 
+    *  **Block Level** these tag basically cause a line break and it take a complete line in the HTML file
+        * heading (h1,h2...),div
+    * main parts:- other than the above difference everything is same
+
+    * overflow:hidden it will hide the content outside the box other options 
+    overflow: scroll whatever the content is it will be scrollable
+
 
