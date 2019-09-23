@@ -43,3 +43,45 @@
 
 }
 
+.project-thumbnail{
+    border: 2px solid goldenrod;
+    border-radius: 10%;
+     box-shadow: #ec9898;    /*
+                         // ! how this works */
+    width: 25%;
+    
+   
+}
+.project-thumbnail:hover{
+    width: 30%;
+}
+.container h4{
+    font-size: 25px;
+}
+.description{
+    font-size: 18px;
+    color: rgb(117, 107, 253);
+}
+
+
+/* now working on footer*/
+
+.footer{
+    border: 3px solid burlywood;    
+    height: 200px;
+    width: auto;
+    background-color:   rgb(60, 83, 109);
+    position: relative;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+    padding: 15px 15px;
+ 
+}
+.tag-line{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+}

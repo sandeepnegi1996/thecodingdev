@@ -34,3 +34,12 @@ either on Heroku,netlify or github pages or firebase.
     overflow: scroll whatever the content is it will be scrollable
 
 
+##### Day2:-
+    * if you want to access a element inside a class just type
+        ```css
+        .container h4{
+            //write the styling
+            //here container is the class name so we accessed using . and h4 is the heading
+        }
+        ```
+
