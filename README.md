@@ -43,3 +43,13 @@ either on Heroku,netlify or github pages or firebase.
         }
         ```
 
+##### Day 3:- Card alignment done working
+    * using card-deck from bootstrap,
+    * card class is applied to container,
+    * card-body,card-title,card-text
+
+    * card-text for the text
+
+##### Day 4:- Recreate the footer using vanilla js no bootstrap since I am not able to find the proper bootstrap
+    
+
