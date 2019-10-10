@@ -1,8 +1,8 @@
 * {
-    margin: 0;
-    box-sizing: border-box;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 body{
@@ -10,65 +10,86 @@ background-color:blue;
 }
 
 .topnav {
-    background-color: rgb(60, 83, 109);
-    overflow: hidden;
+  background-color: rgb(60, 83, 109);
+  overflow: hidden;
 }
 
 .topnav a {
-    float: left;
-    text-align: center;
-    font-size: 18px;
-    padding: 14px 16px;
-    color: #f2f2f2;
-    text-decoration: none;
+  float: left;
+  text-align: center;
+  font-size: 18px;
+  padding: 14px 16px;
+  color: #f2f2f2;
+  text-decoration: none;
 }
 
 .topnav a:hover {
-    background-color: rgb(170, 196, 212);
-    color: black;
+  background-color: rgb(170, 196, 212);
+  color: black;
 }
 
 .intro {
-    position: relative;
+  position: relative;
+  border: 5px solid green;
+}
+.fade-container::after {
+  content: "I am sandeep this is first website";
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: black;
+  opacity: 1;
+  top: 0%;
+  left: 0%;
+  opacity: 0;
+  transition: opacity 300ms;
+}
+.fade-container:hover::after {
+  opacity: 0.5;
 }
 
 .intro img {
-    max-width: 100%;
-    height: 500%;
-    height: auto;
-    opacity: 1;
+  max-width: 100%;
+  height: 500%;
+  height: auto;
+  opacity: 0.8;
 }
 
 .intro-heading {
-    position: absolute;
-    top: 45%;
-    left: 30%;
-    color: white;
-    font-size: 35px;
+  position: absolute;
+  top: 45%;
+  left: 30%;
+  color: white;
+  font-size: 35px;
 }
-
 
 /* now working on footer*/
 
 .footer {
-    height: 150px;
-    width: auto;
-    background-color: rgb(60, 83, 109);
-    position: relative;
+  height: 150px;
+  width: auto;
+  background-color: rgb(60, 83, 109);
+  position: relative;
 }
 
 .footer a {
-    color: #f2f2f2;
-    padding: 15px 15px;
-    text-decoration: none;
+  color: #f2f2f2;
+  padding: 15px 15px;
+  text-decoration: none;
 }
 
 .tag-line {
-    position: absolute;
-    top: 50%;
-    left: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
 
 .moto {
-    color: aquamarine;
-}
+
+  color: aquamarine;
+    }
