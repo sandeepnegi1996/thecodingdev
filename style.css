@@ -5,6 +5,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body{
+background-color:blue;
+}
+
 .topnav {
     background-color: rgb(60, 83, 109);
     overflow: hidden;
