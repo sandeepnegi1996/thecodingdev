@@ -33,7 +33,7 @@ background-color:blue;
   border: 5px solid green;
 }
 .fade-container::after {
-  content: "I am sandeep this is first website";
+  content: "I am sandeep I am passionate software Developer ";
   color: white;
   display: flex;
   justify-content: center;
@@ -66,6 +66,21 @@ background-color:blue;
   left: 30%;
   color: white;
   font-size: 35px;
+}
+
+.card {
+  background: #e44d26;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f16529, #e44d26);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f16529, #e44d26);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  transition: 350ms;
+  transition-timing-function: ease-out;
+}
+
+.card:hover {
+  transform: scale(1.1);
 }
 
 /* now working on footer*/
