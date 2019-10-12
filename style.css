@@ -6,11 +6,11 @@
 }
 
 body{
-background-color:blue;
+  background-image: linear-gradient(to top, #0e2a55, #005b8c, #008e99, #00bc76, #ace03a);
 }
 
 .topnav {
-  background-color: rgb(60, 83, 109);
+background-image: linear-gradient(to top, #3847e5, #1a54db, #0b5ece, #2065be, #376aac);
   overflow: hidden;
 }
 
@@ -29,12 +29,13 @@ background-color:blue;
 }
 
 .intro {
+
   position: relative;
-  border: 5px solid green;
 }
 .fade-container::after {
-  content: "I am sandeep I am passionate software Developer ";
-  color: white;
+  content: "Hello, I am Sandeep a passionate software Developer ";
+  color:#5DDE49;
+ background-image: linear-gradient(to top, #4fe538, #94c400, #afa300, #b68420, #ac6a37);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -60,20 +61,10 @@ background-color:blue;
   opacity: 0.8;
 }
 
-.intro-heading {
-  position: absolute;
-  top: 45%;
-  left: 30%;
-  color: white;
-  font-size: 35px;
-}
+
 
 .card {
-  background: #e44d26;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #f16529, #e44d26);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #f16529, #e44d26);
+background-image: linear-gradient(to bottom, #0f1929, #004562, #00777b, #00a762, #94cd16);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   transition: 350ms;
   transition-timing-function: ease-out;
@@ -88,7 +79,7 @@ background-color:blue;
 .footer {
   height: 150px;
   width: auto;
-  background-color: rgb(60, 83, 109);
+  background-image: linear-gradient(to top, #3847e5, #1a54db, #0b5ece, #2065be, #376aac);
   position: relative;
 }
 
